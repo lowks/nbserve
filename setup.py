@@ -12,6 +12,8 @@ requires = ['flask',
 setup(
     name=__progname__,
     version=__version__,
+    description=("Runs, exports, and then serves iPython notebooks as"
+                 "read-only web pages as a WSGI app or a standalone server."), 
     long_description=__description__,
     author=__author__,
     author_email=__author_email__,
